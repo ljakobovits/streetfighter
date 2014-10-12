@@ -45,6 +45,8 @@ function playHadouken () {
    if (e.which == 88) {
   	$('.ryu-ready').hide();
   	$('.ryu-cool').show();
+    $('.ryu-throwing').hide();
+    $('.ryu-still').hide();
   }
 
 })
